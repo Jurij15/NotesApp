@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NotesAppV2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="320" Width="591">
+        Title="MainWindow" Height="343" Width="528" Background="#FFB9B9B9">
     <Grid>
+        <Label Content="Notes" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Height="32" Width="58" FontSize="16"/>
+        <ListBox  d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,42,368,0" Height="249" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        <TextBox HorizontalAlignment="Left" Margin="177,42,0,0" TextWrapping="Wrap" Text="noteedit" VerticalAlignment="Top" Width="323" Height="249"/>
 
     </Grid>
 </Window>

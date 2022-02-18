@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SQLite;
+using NotesAppV2.Classes;
 
 namespace NotesAppV2
 {
@@ -24,7 +25,8 @@ namespace NotesAppV2
         public MainWindow()
         {
             InitializeComponent();
-            
+            CreateNoteFile createNoteFile = new CreateNoteFile();
+            //createNoteFile.createFile();
         }
     }
 }

@@ -1,0 +1,6 @@
+﻿Plan:
+All notes are going to be saved in sqlite or directly in nodejs, localhost server.
+
+A few minutes later:
+Plan (second time):
+I will probably just create a txt/json file without a server
