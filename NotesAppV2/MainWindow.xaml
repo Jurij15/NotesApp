@@ -8,7 +8,14 @@
         Title="MainWindow" Height="343" Width="528" Background="#FFB9B9B9">
     <Grid>
         <Label Content="Notes" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Height="32" Width="58" FontSize="16"/>
-        <ListBox  d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,42,368,0" Height="249" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        <ListBox Margin="10,42,368,0" Height="249" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal" Height="16" Width="136">
+                    <TextBlock>Welcome Note   </TextBlock>
+                    <Button Content="Show" FontSize="9"/>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
         <TextBox HorizontalAlignment="Left" Margin="177,42,0,0" TextWrapping="Wrap" Text="noteedit" VerticalAlignment="Top" Width="323" Height="249"/>
 
     </Grid>
